@@ -48,3 +48,38 @@
     align-items: center;
     color: tomato;
 }
+
+.food-item-img-container{
+    position: relative;
+}
+
+.food-item-img-container .add{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: 35px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.item-count-container{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: 90px;
+    
+    height: 35px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px #00000020;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item-count-container img{
+    width: 30px;
+    cursor: pointer;
+}
+
+
